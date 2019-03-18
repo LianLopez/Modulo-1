@@ -1,0 +1,365 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header3 {
+  background-color: #033949;
+  color: white;
+  border-bottom: 2px solid #a4ff4a;
+}
+
+.box-row3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-flex3 {
+  display: flex;
+  align-items: center;
+}
+
+.logo3 {
+  height: 85px;
+  width: auto;
+}
+
+.h1-header3 {
+  padding: 0;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.nav3 .link3 {
+  margin: 0 15px;
+  padding: 5px;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  border: 0px solid #a4ff4a;
+  transition-property: border;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+.nav3 .link3:hover {
+  border: 1px solid #a4ff4a;
+  transition-property: border;
+  transition-timing-function: ease-in;
+  transition-duration: 1s;
+}
+
+.banner-box3 {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner-img3 {
+  width: 100%;
+  height: auto;
+}
+
+.contenedor3 {
+  border-top: #a4ff4a 2px solid;
+  background-color: #a4ff4a;
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor3 .h2-3 {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #033949;
+  color: white;
+}
+
+.contenedor3 .box-info3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor3 .box-info3 .info3 {
+  background-color:
+    color: white;
+  padding: 30px;
+}
+
+.contenedor3 .box-info3 .info3 .info-p3 {
+  margin-left: 20px;
+}
+
+.about-cont3 {
+  padding: 50px 50px;
+}
+
+.rules-contenedor {
+  text-align: center;
+}
+
+.p-rules {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.m-top {
+  margin-top: 25px;
+}
+
+.p-top {
+  margin-top: 20px;
+}
+
+.list-rules {
+  text-align: left;
+  max-width: 90%;
+  padding: 0 0 0 30px;
+}
+
+.li-list1 {
+  margin: 0px 0px 25px 25px;
+}
+
+.bl-list2 {
+  margin-left: 25px;
+}
+
+.contenedor-info {
+  padding: 30px;
+}
+
+.p-style1 {
+  text-decoration: underline;
+}
+
+.tabla1 {
+  text-align: center;
+  width: 600px;
+  margin: 25px;
+}
+
+.tr-cabezal {
+  text-decoration: underline;
+}
+
+.tabla3 {
+  text-align: left;
+  width: 600px;
+  margin: 25px;
+}
+
+.tabla4 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.contenedor-tablas {
+  margin-left: 25px;
+}
+
+.tabla5 {
+  width: 600px;
+}
+
+.tr-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  height: 50px;
+}
+=======
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header3 {
+  background-color: #033949;
+  color: white;
+  border-bottom: 2px solid #a4ff4a;
+}
+
+.box-row3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-flex3 {
+  display: flex;
+  align-items: center;
+}
+
+.logo3 {
+  height: 85px;
+  width: auto;
+}
+
+.h1-header3 {
+  padding: 0;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.nav3 .link3 {
+  margin: 0 15px;
+  padding: 5px;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  border: 0px solid #a4ff4a;
+  transition-property: border;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+.nav3 .link3:hover {
+  border: 1px solid #a4ff4a;
+  transition-property: border;
+  transition-timing-function: ease-in;
+  transition-duration: 1s;
+}
+
+.banner-box3 {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner-img3 {
+  width: 100%;
+  height: auto;
+}
+
+.contenedor3 {
+  border-top: #a4ff4a 2px solid;
+  background-color: #a4ff4a;
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor3 .h2-3 {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #033949;
+  color: white;
+}
+
+.contenedor3 .box-info3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor3 .box-info3 .info3 {
+  background-color:
+    color: white;
+  padding: 30px;
+}
+
+.contenedor3 .box-info3 .info3 .info-p3 {
+  margin-left: 20px;
+}
+
+.about-cont3 {
+  padding: 50px 50px;
+}
+
+.rules-contenedor {
+  text-align: center;
+}
+
+.p-rules {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.m-top {
+  margin-top: 25px;
+}
+
+.p-top {
+  margin-top: 20px;
+}
+
+.list-rules {
+  text-align: left;
+  max-width: 90%;
+  padding: 0 0 0 30px;
+}
+
+.li-list1 {
+  margin: 0px 0px 25px 25px;
+}
+
+.bl-list2 {
+  margin-left: 25px;
+}
+
+.contenedor-info {
+  padding: 30px;
+}
+
+.p-style1 {
+  text-decoration: underline;
+}
+
+.tabla1 {
+  text-align: center;
+  width: 600px;
+  margin: 25px;
+}
+
+.tr-cabezal {
+  text-decoration: underline;
+}
+
+.tabla3 {
+  text-align: left;
+  width: 600px;
+  margin: 25px;
+}
+
+.tabla4 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.contenedor-tablas {
+  margin-left: 25px;
+}
+
+.tabla5 {
+  width: 600px;
+}
+
+.tr-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  height: 50px;
+}
