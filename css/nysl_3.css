@@ -330,7 +330,15 @@ footer {
   width: 600px;
   margin: 25px;
 }
-
+.type-square{
+list-style-type: square;
+}
+.type-1{
+  list-style-type: decimal;
+}
+.type-a{
+  list-style-type: lower-alpha;
+}
 .tr-cabezal {
   text-decoration: underline;
 }
