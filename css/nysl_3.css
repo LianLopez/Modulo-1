@@ -187,7 +187,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
+.div-info{
+  width: 600px;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+.p-mbt{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 footer {
   height: 50px;
 }
