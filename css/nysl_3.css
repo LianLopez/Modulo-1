@@ -15,8 +15,8 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100px;
-  padding: 0 20px;
+  height: auto;
+  padding: 5px 20px;
   align-items: center;
   justify-content: space-between;
 }
@@ -35,30 +35,47 @@
   padding: 0;
   margin: 0 15px;
   text-align: center;
+  font-size: 1.3em;
+}
+
+.nav3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#menu {
+  display: none;
+}
+
+.icon-menu {
+  display: none;
 }
 
 .nav3 .link3 {
-  margin: 0 15px;
   padding: 5px;
   color: white;
   font-size: 1em;
+  text-align: center;
   text-decoration: none;
-  border: 0px solid #a4ff4a;
-  transition-property: border;
+  transition-property: background-color;
   transition-timing-function: ease;
   transition-duration: 1s;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .nav3 .link3:hover {
-  border: 1px solid #a4ff4a;
-  transition-property: border;
+  background-color: #a4ff4a;
+  color: black;
+  border-radius: 15px 15px 15px 15px;
+  transition-property: background-color, color;
   transition-timing-function: ease-in;
   transition-duration: 1s;
 }
 
 .banner-box3 {
   width: 100%;
-  height: 400px;
+  height: 10%;
+  max-height: 400px;
   overflow: hidden;
 }
 
@@ -85,12 +102,8 @@
 .contenedor3 .box-info3 {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.contenedor3 .box-info3 .info3 {
-  padding: 30px;
+  margin: 15px 0;
 }
 
 .contenedor3 .box-info3 .info3 .info-p3 {
@@ -98,7 +111,7 @@
 }
 
 .about-cont3 {
-  padding: 50px 50px;
+  padding: 30px;
 }
 
 .rules-contenedor {
@@ -187,17 +200,69 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.div-info{
+
+.div-info {
   width: 600px;
 }
+
 .flex-row {
   display: flex;
   justify-content: space-between;
 }
-.p-mbt{
+
+.p-mbt {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+th, td {
+  border: 1px solid black;
+}
+
 footer {
   height: 50px;
+}
+
+.p-bl {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .box-row3 {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .icon-menu {
+    display: initial;
+    font-size: 1.6em;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+  }
+
+  .nav3 {
+    display: none;
+    flex-direction: column;
+  }
+
+  .contenedor3 .box-info3 {
+    flex-direction: column;
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .tabla1, .tabla3 {
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .div-info {
+    width: 100%;
+  }
+
+  .contenedor-info {
+    padding: 10px;
+  }
 }
