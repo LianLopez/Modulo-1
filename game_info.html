@@ -8,7 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js/jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="icon/style.css">
+  <link rel="stylesheet" type="text/css" href="icon/icon1/style.css">
+  <link rel="stylesheet" type="text/css" href="icon/icon2/style.css">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
 
   <div class="contenedor3">
     <h2 class="h2-3">Game Information</h2>
-    <div class="contenedor-info">
+    <div class="contenedor-info flex-gameinfo">
       <h3>Fall Schedule</h3>
       <p class="p-style1">* All games take place on Saturday</p>
       <table class="tabla1">
@@ -153,6 +154,43 @@
           </tr>
         </tbody>
       </table>
+      <div class="map maps-none1">
+
+        <iframe class="iframe-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.65406042614!2d-87.63123908530973!3d41.90029637200521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1553687977904"
+          width="60%" height="450" style="border:0" allowfullscreen></iframe>
+        <span class="icon-minus button-closemap1"></span>
+      </div>
+      <div class="map maps-none2">
+        <iframe class="iframe-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745194!2d-87.64002798530922!3d41.91380627115931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1553688031176"
+          width="60%" height="450" style="border:0" allowfullscreen></iframe>
+        <span class="icon-minus button-closemap2"></span>
+      </div>
+      <div class="map maps-none3">
+        <iframe class="iframe-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5854973846617!2d-87.66511458530887!3d41.923268570566634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1553688069063"
+          width="60%" height="450" style="border:0" allowfullscreen></iframe>
+        <span class="icon-minus button-closemap3"></span>
+      </div>
+      <div class="map maps-none4">
+        <iframe class="iframe-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2917289530633!2d-87.64808628530858!3d41.92958227017124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1553688097100"
+          width="60%" height="450" style="border:0" allowfullscreen></iframe>
+        <span class="icon-minus button-closemap4"></span>
+      </div>
+      <div class="map maps-none5">
+        <iframe class="iframe-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.337614159582!2d-87.64837698530947!3d41.90710047157917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1553688121301"
+          width="60%" height="450" style="border:0" allowfullscreen></iframe>
+        <span class="icon-minus button-closemap5"></span>
+      </div>
+      <div class="map maps-none6">
+        <iframe class="iframe-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.747764826546!2d-87.653555385309!3d41.919780770785145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1553688159436"
+          width="60%" height="450" style="border:0" allowfullscreen></iframe>
+        <span class="icon-minus button-closemap6"></span>
+      </div>
       <table class="tabla3">
         <tbody>
           <tr>
@@ -160,27 +198,33 @@
           </tr>
           <tr>
             <td>AJ Katzenmaier Elementary</td>
-            <td>24 W. Walton St., Chicago, IL 60610 </td>
+            <td class="td-flex">24 W. Walton St., Chicago, IL 60610 <span class="icon-plus button1-map"><b>Maps</b></span>
+            </td>
           </tr>
           <tr>
             <td>Greenbay Elementary</td>
-            <td>1734 N. Orleans St., Chicago, IL 60614</td>
+            <td class="td-flex">1734 N. Orleans St., Chicago, IL 60614 <span class="icon-plus button2-map"><b>Map</b></span>
+            </td>
           </tr>
           <tr>
             <td>Howard A Yeager Elementary</td>
-            <td>2245 N. Southport Ave., Chicago, IL 60614 </td>
+            <td class="td-flex">2245 N. Southport Ave., Chicago, IL 60614 <span class="icon-plus button3-map"><b>Map</b></span>
+            </td>
           </tr>
           <tr>
-            <td>Marjorie P Hart Elementary </td>
-            <td>2625 N. Orchard St., Chicago, IL 60614</td>
+            <td>Marjorie P Hart Elementary</td>
+            <td class="td-flex">2625 N. Orchard St., Chicago, IL 60614 <span class="icon-plus button4-map"><b>Map</b></span>
+            </td>
           </tr>
           <tr>
             <td>North Elementary</td>
-            <td>1409 N. Ogden Ave., Chicago, IL 60610</td>
+            <td class="td-flex">1409 N. Ogden Ave., Chicago, IL 60610 <span class="icon-plus button5-map"><b>Map</b></span>
+            </td>
           </tr>
           <tr>
             <td>South Elementary</td>
-            <td>2101 N. Fremont St., Chicago, IL 60614</td>
+            <td class="td-flex">2101 N. Fremont St., Chicago, IL 60614 <span class="icon-plus button6-map"><b>Map</b></span>
+            </td>
           </tr>
         </tbody>
       </table>
