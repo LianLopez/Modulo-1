@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js/jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="icon/style.css">
+  <link rel="stylesheet" type="text/css" href="icon/icon1/style.css">
 </head>
 
 <body>
@@ -119,26 +119,28 @@
         <br>
         <b>Already Have a Uniform</b><input type="checkbox" name="uniform" value="have">
         <br>
-        <fieldset>
-          <b>Jersey Size:</b><br>
-          <label><input type="radio" name="jersey" id="" value="1">Youth Small</label>
-          <label><input type="radio" name="jersey" id="" value="2">Youth Medium</label>
-          <label><input type="radio" name="jersey" id="" value="3">Youth Large</label>
-          <label><input type="radio" name="jersey" id="" value="4">Small</label>
-          <label><input type="radio" name="jersey" id="" value="5">Medium</label>
-          <label><input type="radio" name="jersey" id="" value="6">Large</label>
-          <label><input type="radio" name="jersey" id="" value="7">Extra-Large</label>
-        </fieldset>
-        <fieldset>
+        <div>
+          <b>Jersey Size:</b>
+          <br>
+          <label><input type="radio" name="jersey" value="1">Youth Small</label>
+          <label><input type="radio" name="jersey" value="2">Youth Medium</label>
+          <label><input type="radio" name="jersey" value="3">Youth Large</label>
+          <label><input type="radio" name="jersey" value="4">Small</label>
+          <label><input type="radio" name="jersey" value="5">Medium</label>
+          <label><input type="radio" name="jersey" value="6">Large</label>
+          <label><input type="radio" name="jersey" value="7">Extra-Large</label>
+        </div>
+        <div>
           <b>Shorts Size:</b>
-          <label><input type="radio" name="shorts" id="" value="1">Youth Small</label>
-          <label><input type="radio" name="shorts" id="" value="2">Youth Medium</label>
-          <label><input type="radio" name="shorts" id="" value="3">Youth Large</label>
-          <label><input type="radio" name="shorts" id="" value="4">Small</label>
-          <label><input type="radio" name="shorts" id="" value="5">Medium</label>
-          <label><input type="radio" name="shorts" id="" value="6">Large</label>
-          <label><input type="radio" name="shorts" id="" value="7">Extra-Large</label>
-        </fieldset>
+          <br>
+          <label><input type="radio" name="shorts" value="1">Youth Small</label>
+          <label><input type="radio" name="shorts" value="2">Youth Medium</label>
+          <label><input type="radio" name="shorts" value="3">Youth Large</label>
+          <label><input type="radio" name="shorts" value="4">Small</label>
+          <label><input type="radio" name="shorts" value="5">Medium</label>
+          <label><input type="radio" name="shorts" value="6">Large</label>
+          <label><input type="radio" name="shorts" value="7">Extra-Large</label>
+        </div>
         <br>
         <h4>Permission to Play</h4>
         <p>I, the parent or guardian of the minor registrant, agree that the
@@ -156,8 +158,8 @@
         <p>By signing below, I hereby agree and authorize the above.
           In addition, by signing below, I also acknowledge that I have read
           the cancellation policy and agree to its term</p>
-          <label>Parent/Guardian Signature<input type="text" name="" id=""></label>
-          <label>Date:<input type="date" name="" id=""></label>
+          <label>Parent/Guardian Signature<input type="text" name="parentsignature"></label>
+          <label>Date:<input type="date" name="datesignature"></label>
           <br>
         <input type="submit" name="submit" value="Submit Information">
       </form>
