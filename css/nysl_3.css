@@ -227,6 +227,46 @@ footer {
   margin-bottom: 20px;
 }
 
+.box-info {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.flex-gameinfo {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maps-none1, .maps-none2, .maps-none3, .maps-none4, .maps-none5, .maps-none6 {
+  display: none;
+}
+
+.map{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+
+}
+.iframe-img{
+  margin-top: 50px;
+}
+
+.td-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon-minus{
+  color: white;
+  
+}
+
 @media screen and (max-width:768px) {
   .box-row3 {
     flex-direction: column;
