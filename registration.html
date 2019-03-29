@@ -36,112 +36,126 @@
   <div class="contenedor3">
     <h2 class="h2-3">Registration Form</h2>
     <div class="info-registration">
-      <form class="" action="show_data.html" method="get">
-        <label for="fname">Player’s First Name:</label>
-        <input type="text" name="fname" value="" id="fname">
-        <label for="lname">Last Name</label>
-        <input type="text" name="lname" value="" id="lname">
-        <br>
-        <label for="address">Street address</label>
-        <input type="text" name="address" value="" id="address">
-        <br>
-        <label for="city">City:</label>
-        <input type="text" name="city" value="" id="city">
-        <label for="zipcode">Zip Code</label>
-        <input type="text" name="zipcode" value="" id="zipcode">
-        <br>
-        <label for="bdate">Birth Date</label>
-        <input type="date" name="bdate" value="" id="bdate">
-        <label>Gender:</label>
-        <input type="radio" name="gender" id="gender1" value="1">
-        <label for="gender1">Female</label>
-        <input type="radio" name="gender" id="gender2" value="2">
-        <label for="gender2">Male</label>
-        <br>
-        <label>Grade:</label>
-        <input type="radio" name="grade" value="0" id="grade0">
-        <label for="grade0">Pre-School</label>
-        <input type="radio" name="grade" value="1" id="grade1">
-        <label for="grade1">1<sup>st</sup></label>
-        <input type="radio" name="grade" value="2" id="grade2">
-        <label for="grade2">2<sup>nd</sup></label>
-        <input type="radio" name="grade" value="3" id="grade3">
-        <label for="grade3">3<sup>rd</sup></label>
-        <input type="radio" name="grade" value="4" id="grade4">
-        <label for="grade4">4<sup>th</sup></label>
-        <input type="radio" name="grade" value="5" id="grade5">
-        <label for="grade5">5<sup>th</sup></label>
-        <br>
-        <label for="parent">Parent/Guardian</label>
-        <input type="text" name="parent" value="" id="parent">
-        <br>
-        <label for="phone">Contact Phone:</label>
-        <input type="tel" name="phone" value="" id="phone">
-        <label for="email">Contact Email:</label>
-        <input type="email" name="email" value="" id="email">
-        <br>
-        <strong>which elementary schools do you live near?</strong>
-        <br>
-        <b>First Closest School:</b>
-        <select class="" name="school1">
-          <option value="1">AJ Katzenmaier</option>
-          <option value="2">Greenbay</option>
-          <option value="3">Howard A Yeager</option>
-          <option value="4">Marjorie P Hart</option>
-          <option value="5">North Elementary</option>
-          <option value="6">South Elementary</option>
-        </select>
-        <b>Second Closest School</b>
-        <select class="" name="school2">
-          <option value="1">AJ Katzenmaier</option>
-          <option value="2">Greenbay</option>
-          <option value="3">Howard A Yeager</option>
-          <option value="4">Marjorie P Hart</option>
-          <option value="5">North Elementary</option>
-          <option value="6">South Elementary</option>
-        </select>
-        <br>
-        <b>What position(s) do you normally play? (check all that apply)</b>
-        <br>
-        <label><input type="checkbox" name="position1" value="forward">Forward</label>
-        <label><input type="checkbox" name="position2" value="Midfield">Midfield</label>
-        <br>
-        <label><input type="checkbox" name="position3" value="Defense">Defense</label>
-        <label><input type="checkbox" name="position4" value="Goalkeeper">Goalkeeper</label>
-        <br>
-        <b>What position(s) do you want to play? (check all that apply)</b>
-        <br>
-        <label><input type="checkbox" name="positionw1" value="Forward">Forward</label>
-        <label><input type="checkbox" name="positionw2" value="Midfield">Midfield</label>
-        <br>
-        <label><input type="checkbox" name="positionw3" value="Defense">Defense</label>
-        <label><input type="checkbox" name="positionw4" value="Goalkeeper">Goalkeeper</label>
-        <br>
-        <b>Already Have a Uniform</b><input type="checkbox" name="uniform" value="have">
-        <br>
-        <div>
-          <b>Jersey Size:</b>
+      <form class="form-registration" action="show_data.html" method="get">
+        <div class="box-registration">
+          <label for="fname">Player’s First Name:</label>
+          <input type="text" name="fname" value="" id="fname" class="input-text">
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" value="" id="lname" class="input-text">
           <br>
-          <label><input type="radio" name="jersey" value="1">Youth Small</label>
-          <label><input type="radio" name="jersey" value="2">Youth Medium</label>
-          <label><input type="radio" name="jersey" value="3">Youth Large</label>
-          <label><input type="radio" name="jersey" value="4">Small</label>
-          <label><input type="radio" name="jersey" value="5">Medium</label>
-          <label><input type="radio" name="jersey" value="6">Large</label>
-          <label><input type="radio" name="jersey" value="7">Extra-Large</label>
-        </div>
-        <div>
-          <b>Shorts Size:</b>
+          <label for="address">Street address</label>
+          <input type="text" name="address" value="" id="address" class="input-text">
           <br>
-          <label><input type="radio" name="shorts" value="1">Youth Small</label>
-          <label><input type="radio" name="shorts" value="2">Youth Medium</label>
-          <label><input type="radio" name="shorts" value="3">Youth Large</label>
-          <label><input type="radio" name="shorts" value="4">Small</label>
-          <label><input type="radio" name="shorts" value="5">Medium</label>
-          <label><input type="radio" name="shorts" value="6">Large</label>
-          <label><input type="radio" name="shorts" value="7">Extra-Large</label>
+          <label for="city">City:</label>
+          <input type="text" name="city" value="" id="city" class="input-text">
+          <label for="zipcode">Zip Code:</label>
+          <input type="text" name="zipcode" value="" id="zipcode" class="input-text">
+          <br>
+          <label for="bdate">Birth Date</label>
+          <input type="date" name="bdate" value="" id="bdate">
+          <label>Gender:</label>
+          <div class="">
+            <label><input type="radio" name="gender" value="1">Female</label>
+            <label><input type="radio" name="gender" value="2">Male</label>
+          </div>
+          <br>
+          <label>Grade:</label>
+          <div class="">
+            <input type="radio" name="grade" value="0" id="grade0">
+            <label for="grade0">Pre-School</label>
+            <input type="radio" name="grade" value="1" id="grade1">
+            <label for="grade1">1<sup>st</sup></label>
+            <input type="radio" name="grade" value="2" id="grade2">
+            <label for="grade2">2<sup>nd</sup></label>
+            <input type="radio" name="grade" value="3" id="grade3">
+            <label for="grade3">3<sup>rd</sup></label>
+            <input type="radio" name="grade" value="4" id="grade4">
+            <label for="grade4">4<sup>th</sup></label>
+            <input type="radio" name="grade" value="5" id="grade5">
+            <label for="grade5">5<sup>th</sup></label>
+          </div>
+          <br>
+          <label for="parent">Parent/Guardian</label>
+          <input type="text" name="parent" value="" id="parent" class="input-text">
+          <br>
+          <label for="phone">Contact Phone:</label>
+          <input type="tel" name="phone" value="" id="phone">
+          <label for="email">Contact Email:</label>
+          <input type="email" name="email" value="" id="email">
+          <br>
+          <strong>which elementary schools do you live near?</strong>
+          <br>
+          <b>First Closest School:</b>
+          <select class="" name="school1">
+            <option value="1">AJ Katzenmaier</option>
+            <option value="2">Greenbay</option>
+            <option value="3">Howard A Yeager</option>
+            <option value="4">Marjorie P Hart</option>
+            <option value="5">North Elementary</option>
+            <option value="6">South Elementary</option>
+          </select>
+          <b>Second Closest School</b>
+          <select class="" name="school2">
+            <option value="1">AJ Katzenmaier</option>
+            <option value="2">Greenbay</option>
+            <option value="3">Howard A Yeager</option>
+            <option value="4">Marjorie P Hart</option>
+            <option value="5">North Elementary</option>
+            <option value="6">South Elementary</option>
+          </select>
+          <br>
+          <b>What position(s) do you normally play? (check all that apply)</b>
+          <br>
+          <div class="">
+            <label><input type="checkbox" name="position1" value="forward">Forward</label>
+            <label><input type="checkbox" name="position2" value="Midfield">Midfield</label>
+          </div>
+          <br>
+          <div class="">
+            <label><input type="checkbox" name="position3" value="Defense">Defense</label>
+            <label><input type="checkbox" name="position4" value="Goalkeeper">Goalkeeper</label>
+          </div>
+          <br>
+          <b>What position(s) do you want to play? (check all that apply)</b>
+          <br>
+          <div class="">
+            <label><input type="checkbox" name="positionw1" value="Forward">Forward</label>
+            <label><input type="checkbox" name="positionw2" value="Midfield">Midfield</label>
+          </div>
+          <br>
+          <div class="">
+            <label><input type="checkbox" name="positionw3" value="Defense">Defense</label>
+            <label><input type="checkbox" name="positionw4" value="Goalkeeper">Goalkeeper</label>
+          </div>
+          <br>
+          <label><b>Already Have a Uniform</b><input type="checkbox" name="uniform" value="have"></label>
+          <br>
+          <div>
+            <b>Jersey Size:</b>
+            <br>
+            <label><input type="radio" name="jersey" value="1">Youth Small</label>
+            <label><input type="radio" name="jersey" value="2">Youth Medium</label>
+            <label><input type="radio" name="jersey" value="3">Youth Large</label>
+            <label><input type="radio" name="jersey" value="4">Small</label>
+            <label><input type="radio" name="jersey" value="5">Medium</label>
+            <label><input type="radio" name="jersey" value="6">Large</label>
+            <label><input type="radio" name="jersey" value="7">Extra-Large</label>
+          </div>
+          <div>
+            <b>Shorts Size:</b>
+            <br>
+            <label><input type="radio" name="shorts" value="1">Youth Small</label>
+            <label><input type="radio" name="shorts" value="2">Youth Medium</label>
+            <label><input type="radio" name="shorts" value="3">Youth Large</label>
+            <label><input type="radio" name="shorts" value="4">Small</label>
+            <label><input type="radio" name="shorts" value="5">Medium</label>
+            <label><input type="radio" name="shorts" value="6">Large</label>
+            <label><input type="radio" name="shorts" value="7">Extra-Large</label>
+          </div>
+          <br>
         </div>
-        <br>
+
+
         <h4>Permission to Play</h4>
         <p>I, the parent or guardian of the minor registrant, agree that the
           registrant and I will abide by all the rules of the Northside Youth
@@ -158,10 +172,15 @@
         <p>By signing below, I hereby agree and authorize the above.
           In addition, by signing below, I also acknowledge that I have read
           the cancellation policy and agree to its term</p>
-          <label>Parent/Guardian Signature<input type="text" name="parentsignature"></label>
-          <label>Date:<input type="date" name="datesignature"></label>
-          <br>
-        <input type="submit" name="submit" value="Submit Information">
+        <br>
+        <div class="box-sign">
+          <label>Parent/Guardian Signature<input type="text" name="parentsignature" required></label>
+          <label>Date:<input type="date" name="datesignature" required></label>
+        </div>
+        <br>
+        <div class="box-submit">
+          <input type="submit" name="submit" value="Submit Information">
+        </div>
       </form>
     </div>
   </div>
